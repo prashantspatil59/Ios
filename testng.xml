@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="choose_Web_Android_iOS" value="Web"></parameter>
+<!--    <parameter name="choose_Web_Android_iOS" value="Android"></parameter>-->
+<!--    <parameter name="choose_Web_Android_iOS" value="iOS"></parameter>-->
+    <test verbose="2" preserve-order="true" name="C:/Users/prasa/IdeaProjects/SWQA-Wellbeing-All">
+        <classes>
+            <class name="test.webTests.LoginLogout">
+<!--            <methods><include name="loginLogout"/></methods>-->
+        </class>
+        </classes>
+    </test>
+</suite>
